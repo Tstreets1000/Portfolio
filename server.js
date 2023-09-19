@@ -1,6 +1,6 @@
 require('dotenv').config()
 
-require('./config/database')
+// require('./config/database')
 
 const app = require('./app-server')
 const mongoose = require('mongoose')
