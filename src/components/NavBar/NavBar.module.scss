@@ -1,14 +1,17 @@
 .NavBar {
-   
+    grid-template-columns: 292px 268px auto 275px;
+    grid-template-rows: 200px 200px auto 200px;
+    
+    
     .King {
         display: inline-block;
         margin: 10px 10px 10px 10px;
     }
 
     .HomeButtons {
-        display: inline-flex;
-        color: #60ba00;
-        margin: -297px -438px 229px 801px;
+        display: inline-block;
+        background-color: #60ba00;
+        margin: 10px 10px 10px 10px;
         justify-content: space-between;
         gap: 20px;
         font-size: 20px;
@@ -16,48 +19,22 @@
     }
 
     .LogoStatement {
-        display: inline-flex;
-        color: #60ba00;
-        grid-column-start: 2;
+        display: inline-block;
+        margin: 10px 93px 10px 10px;
         
+        .P1 {
+            font-size: 40px;
+            color:#60ba00;
+            font-weight: 900;
+        }
+
+        .P2 .P3 {
+            font-size: 26px;
+            color: black;
+            font-style: italic;
+        }
     }
          
-    .Icons {
-        content: '';
-        position: absolute;
-        bottom: 40px;
-        width: 170px;
-        display: inline-block;
-        justify-content: space-between;
-        font-size: 50px;   
-
-        .Icons a {
-            position: relative;
-            display: inline-block;
-            justify-content: center;
-            align-items: center;
-            width: 50px;
-            height: 50px;
-            background: transparent;
-            border: 2px solid #60ba00;
-            border-radius: 50%;
-            font-size: 40px;
-            color: bisque;
-            text-decoration: none;
-            z-index: 1;
-            overflow: hidden;
-            transition: .5s;
-        }
-          
-        .Icons:hover {
-            color: #60ba00;
-            border: 2px solid bisque;
-        }
-
-        .Icons a:hover::before {
-            width: 100%;
-        }
-        
-    }
+   
 
 }

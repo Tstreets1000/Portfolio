@@ -1,13 +1,18 @@
 import React from 'react';
 import styles from './HomePage.module.scss';
-import SocialMedia from '../../components/SocialMedia/SocialMedia';
 import NavBar from	'../../components/NavBar/NavBar';
+import Footer from	'../../components/Footer/Footer';
+
 
 export default function Homescreen() {
 	return (
 		<main className={styles.Home}>
 			<NavBar />	
-			<SocialMedia />
+			
+
+
+
+			<Footer />
 		</main>
 	);
 }
