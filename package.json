@@ -13,7 +13,7 @@
     "build:webpack": "webpack --mode production --define-process-env-node-env production",
     "dev": "gulp",
     "styles": "gulp styles",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
@@ -38,6 +38,7 @@
     "gulp-sass": "^5.1.0",
     "html-webpack-plugin": "^5.5.3",
     "mini-css-extract-plugin": "^2.7.6",
+    "nodemon": "^3.0.1",
     "postcss-loader": "^7.3.3",
     "prettier-loader": "^3.3.0",
     "react": "^18.2.0",

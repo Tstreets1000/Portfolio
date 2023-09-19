@@ -1,23 +1,12 @@
 import React from 'react';
-import Logo from '../../components/Logo/Logo';
-import SocialMedia from '../../components/SocialMedia/SocialMedia';
 import styles from './HomePage.module.scss';
+import SocialMedia from '../../components/SocialMedia/SocialMedia';
+import NavBar from	'../../components/NavBar/NavBar';
 
 export default function Homescreen() {
 	return (
-		<main>
-			<div className={styles.Home}>
-				<Logo />
-				<p className={styles.LogoStatement}>
-					Hi! Im Terrance Hill A Software Engineer changing the world one line
-					of code at a time!
-				</p>
-			</div>
-			<div className={styles.HomeButtons}>
-				<button>Contact Me</button>
-				<button>Resume</button>
-				<button>Projects</button>
-			</div>
+		<main className={styles.Home}>
+			<NavBar />	
 			<SocialMedia />
 		</main>
 	);

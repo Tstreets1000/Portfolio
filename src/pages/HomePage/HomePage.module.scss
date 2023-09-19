@@ -1,20 +1,8 @@
 .Home {
-    display: flex;
-    background-image: linear-gradient(180deg, rgb(212, 212, 212), whitesmoke, rgb(212, 212, 212));
-    margin: 10px 10px 10px 10px;
-
-
-    .LogoStatement {
-        color: rgb(200, 170, 0);
-        font-size: 50px;
-        text-align: center;
-        margin: 84px 201px 516px 152px;
-    }
-
-    .HomeButtons {
-        color: black;
-        background-color: green;
-        margin: 20px 20px 20px 20px;
-    }
+    display: grid;
+    grid-template-columns: 292px 268px auto 275px;
+    grid-template-rows: 200px 200px auto 200px;
+    background-color: lightgoldenrodyellow;
+    margin: 23px; 
 }
 

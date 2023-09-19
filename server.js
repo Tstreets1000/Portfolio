@@ -1,11 +1,9 @@
 require('dotenv').config()
 
-// require('./config/database')
-
 const app = require('./app-server')
-const mongoose = require('mongoose')
-const PORT = process.env.PORT || 8002
+
+const PORT = process.env.PORT || 8003
 
 app.listen(PORT, () => {
-    console.log(`Shoot for the stars and land on the moon ${PORT} miles away`)
-})
+	console.log(`API Listening on port ${PORT}`);
+});
